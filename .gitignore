@@ -1,0 +1,66 @@
+# live-build generated directories
+cache/
+chroot/
+binary/
+.build/
+
+# Generated live-build metadata
+*.contents
+*.files
+*.packages
+*.modified_timestamps
+chroot.files
+chroot.packages.install
+chroot.packages.live
+binary.modified_timestamps
+
+# ISO / disk images
+*.iso
+*.img
+*.raw
+*.qcow2
+*.vdi
+*.vmdk
+
+# Build logs
+*.log
+build.log
+
+# Download logs
+wget-log*
+wget-log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# QEMU
+qemu.log
+qemu.pid
+*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generic temporary directories
+tmp/
+temp/
+dist/
